@@ -29,7 +29,7 @@ function draw() {
 }
 
 function mousePressed() {
-    savedMouse.x = mouseX; //Save the mouse position;
+    savedMouse.x = mouseX;
     savedMouse.y = mouseY;
   }
 
