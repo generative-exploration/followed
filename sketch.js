@@ -6,15 +6,12 @@ let img;
 
 function preload(){ 
   img = loadImage("0095.jpg");
-  myFont = loadFont('FiraCode-Regular.ttf');
 }
 
 function setup() {
   let c =  createCanvas(960, 1200);
   image(img, 0, 0);
-  textFont(myFont);
   textSize(14);
-//  frameRate(10);
   savedMouse = createVector(0, 0);
 }
 
